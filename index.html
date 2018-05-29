@@ -12,12 +12,12 @@
   <section class="complete-wrap">
     <section class="header-wrap">
         <header>
-          <div class="newDiv">
           <nav class="header-button-wrap">
-            <button class="header-button shares-button"><i class="header-button-icon fas fa-share-alt"></i> Shares</button>
-            <button class="header-button header-playlist"><i class="header-button-icon fas fa-bars"></i> Playlist</button>
-            <button class="header-button personal-videos"><i class="header-button-icon far fa-user"></i> Personal Videos</button>
+            <button class="header-button hide-button shares-button"><i class="header-button-icon fas fa-share-alt"></i> Shares</button>
+            <button class="header-button hide-button header-playlist"><i class="header-button-icon fas fa-bars"></i> Playlist</button>
+            <button class="header-button hide-button personal-videos"><i class="header-button-icon far fa-user"></i> Personal Videos</button>
           </nav>
+          <article>
           <div class="admin-user-wrap">
             <button class="header-button admin-user-button">
               <i class="far fa-user-circle"></i>
@@ -25,16 +25,17 @@
               <i class="fas fa-sort-down"></i>
             </button>
           </div>
-          </div>
           <div class="header-logo-wrap">
-            <h1>2WIN!</h1>
-            <i class="logo-icon fab fa-centercode"></i>
+            <h1 class="win">2WIN!</h1>
+            <i class="logo-icon fas fa-globe"></i>
+            <button class="hide-logo-menu header-logo-button"><i class="logo-menu fas fa-align-justify"></i></button>
           </div>
+        </article>
         </header>
     </section>
     <h2 class="shares">Shares</h2>
     <section class="main-area-wrap">
-      <article class="grid-item" id="a1">
+      <article class="grid-item" id="a1" role="img" aria-label="Five islands off the Southern California coast comprise one of America’s most remote—and utterly magical—national parks. Visitors arrive on the islands by boat (boats depart regularly from Ventura and Oxnard) or small plane, then use their hiking boots or kayaks to get around. Revered for its endemic plants and plentiful wildlife, the “Galapagos of North America” has no lodgings, stores, or restaurants—a place that draws you in without a lot of extra trappings. On this ocean sanctuary, it’s all about wraparound beauty, solitude, and the chance to totally and completely unplug.">
         <div class="picture-section" id="a1-pic">
           <i class="logo-arrow fas fa-share-square"></i>
           <span>
@@ -44,15 +45,15 @@
         </div>
         <div class="hover-wrap">
           <p class="no-hover name">Channel Islands</p>
-          <p class="no-hover date">Monday 01.22/16 09:22am</p>
-          <p class="no-hover url"><a class="link" target="blank" href="http://www.visitcalifornia.com/destination/spotlight-channel-islands-national-park"></a>www.visitcalifornia.com </p>
+          <p class="no-hover date">Monday 01/22/16 09:22am</p>
+          <p class="no-hover url"><a class="link" target="blank" href="http://www.visitcalifornia.com/destination/spotlight-channel-islands-national-park">www.visitcalifornia.com</a></p>
           <p class="no-hover playlist">Playlist</p>
           <p class="no-hover playlist-name">Name of Playlist</p>
           <p class="no-hover attachment">Attachments</p>
           <p class="no-hover attachment-count">03</p>
         </div>
       </article>
-      <article class="grid-item" id="a2">
+      <article class="grid-item" id="a2" role="img" aria-label="Seaside bedroom community">
           <div class="picture-section" id="a2-pic">
               <i class="logo-arrow fas fa-share-square"></i>
               <span>
@@ -62,15 +63,15 @@
             </div>
             <div class="hover-wrap">
               <p class="no-hover name">Ventura</p>
-              <p class="no-hover date">Saturday 03.12/16 02:21pm</p>
-              <p class="no-hover url"><a class="link" target="blank" href="http://www.visitcalifornia.com/destination/spotlight-channel-islands-national-park"></a>www.visitcalifornia.com </p>
+              <p class="no-hover date">Saturday 03/12/16 02:21pm</p>
+              <p class="no-hover url"><a class="link" target="blank" href="https://www.cityofventura.ca.gov/">www.visitVentua.com </a></p>
               <p class="no-hover playlist">Playlist</p>
               <p class="no-hover playlist-name">Name of Playlist</p>
               <p class="no-hover attachment">Attachments</p>
               <p class="no-hover attachment-count">09</p>
             </div>
       </article>
-      <article class="grid-item" id="a3">
+      <article class="grid-item" id="a3" role="img" aria-label="Big Sur is a rugged stretch of California’s central coast between Carmel and San Simeon. Bordered to the east by the Santa Lucia Mountains and the west by the Pacific Ocean, it’s traversed by narrow, 2-lane State Route 1, known for winding turns, seaside cliffs and views of the often-misty coastline. The sparsely populated region has numerous state parks for hiking, camping and beachcombing.">
           <div class="picture-section" id="a3-pic">
               <i class="logo-arrow fas fa-share-square"></i>
               <span>
@@ -80,8 +81,8 @@
             </div>
             <div class="hover-wrap">
               <p class="no-hover name">Big Sur</p>
-              <p class="no-hover date">Firday 07.12/16 02:21am</p>
-              <p class="no-hover url"><a class="link" target="blank" href="http://www.visitcalifornia.com/destination/spotlight-channel-islands-national-park"></a>www.visitcalifornia.com </p>
+              <p class="no-hover date">Firday 07/12/16 02:21am</p>
+              <p class="no-hover url"><a class="link" target="blank" href="http://www.visitcalifornia.com/destination/spotlight-big-sur">www.visitBigSur.com</a></p>
               <p class="no-hover playlist">Playlist</p>
               <p class="no-hover playlist-name">Name of Playlist</p>
               <p class="no-hover attachment">Attachments</p>
@@ -98,8 +99,8 @@
             </div>
             <div class="hover-wrap">
               <p class="no-hover name">Redwood</p>
-              <p class="no-hover date">Tuesday 09.05/16 03:41pm</p>
-              <p class="no-hover url"><a class="link" target="blank" href="http://www.visitcalifornia.com/destination/spotlight-channel-islands-national-park"></a>www.visitcalifornia.com </p>
+              <p class="no-hover date">Tuesday 09/05/16 03:41pm</p>
+              <p class="no-hover url"><a class="link" target="blank" href="https://www.nps.gov/redw/index.htm">www.californiaRedwoods.com </a></p>
               <p class="no-hover playlist">Playlist</p>
               <p class="no-hover playlist-name">Name of Playlist</p>
               <p class="no-hover attachment">Attachments</p>
@@ -116,8 +117,8 @@
             </div>
             <div class="hover-wrap">
               <p class="no-hover name">Decker Canyon</p>
-              <p class="no-hover date">Thursday 07.07/16 07:07am</p>
-              <p class="no-hover url"><a class="link" target="blank" href="http://www.visitcalifornia.com/destination/spotlight-channel-islands-national-park"></a>www.visitcalifornia.com </p>
+              <p class="no-hover date">Thursday 07/07/16 07:07am</p>
+              <p class="no-hover url"><a class="link" target="blank" href="https://en.wikipedia.org/wiki/California_State_Route_23">www.decker-canyon.com</a></p>
               <p class="no-hover playlist">Playlist</p>
               <p class="no-hover playlist-name">Name of Playlist</p>
               <p class="no-hover attachment">Attachments</p>
@@ -134,8 +135,8 @@
             </div>
             <div class="hover-wrap">
               <p class="no-hover name">Pismo</p>
-              <p class="no-hover date">Thursday 04.02/16 04:21pm</p>
-              <p class="no-hover url"><a class="link" target="blank" href="http://www.visitcalifornia.com/destination/spotlight-channel-islands-national-park"></a>www.visitcalifornia.com </p>
+              <p class="no-hover date">Thursday 04/02/16 04:21pm</p>
+              <p class="no-hover url"><a class="link" target="blank" href="https://www.pismobeach.org/">www.visitPismo.com </a></p>
               <p class="no-hover playlist">Playlist</p>
               <p class="no-hover playlist-name">Name of Playlist</p>
               <p class="no-hover attachment">Attachments</p>
@@ -151,9 +152,9 @@
             </span>
             </div>
             <div class="hover-wrap">
-              <p class="no-hover name">Ventura</p>
-              <p class="no-hover date">Saturday 03.12/16 02:21apm</p>
-              <p class="no-hover url"><a class="link" target="blank" href="http://www.visitcalifornia.com/destination/spotlight-channel-islands-national-park"></a>www.visitcalifornia.com </p>
+              <p class="no-hover name">Gorman</p>
+              <p class="no-hover date">Saturday 03/12/16 02:21pm</p>
+              <p class="no-hover url"><a class="link" target="blank" href="http://www.pinemountainclubrealestate.com/Communities/GORMAN/gorman-ca.html">www.pineMountain.com</a></p>
               <p class="no-hover playlist">Playlist</p>
               <p class="no-hover playlist-name">Name of Playlist</p>
               <p class="no-hover attachment">Attachments</p>
@@ -170,7 +171,7 @@
             </div>
             <div class="hover-wrap">
               <p class="no-hover name">Ventura</p>
-              <p class="no-hover date">Saturday 03.12/16 02:21apm</p>
+              <p class="no-hover date">Saturday 03/12/16 02:21am</p>
               <p class="no-hover url"><a class="link" target="blank" href="http://www.visitcalifornia.com/destination/spotlight-channel-islands-national-park"></a>www.visitcalifornia.com </p>
               <p class="no-hover playlist">Playlist</p>
               <p class="no-hover playlist-name">Name of Playlist</p>
