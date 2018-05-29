@@ -7,6 +7,7 @@
 body {
   background-color: rgba(166, 129, 92, 1);
   color: rgba(233, 236, 243, 1);
+  /* max-width: 1700px; */
   text-shadow: 1px 1px 1px rgb(24, 15, 1);
 }
  .complete-wrap {
@@ -27,10 +28,16 @@ header {
 .header-button {
   background-color: rgba(87, 64, 49, 1);
   border: rgba(87, 64, 49, 1);
+  border-radius: 15%;
   color: rgba(233, 236, 243, 1);
   cursor: pointer;
   height: 4rem;
   margin: auto;
+}
+
+.header-button:hover {
+  background-color: rgb(151, 112, 85);
+  transition: 0.5s
 }
 
 .header-button-wrap {
@@ -151,7 +158,7 @@ header {
 }
 
 #a6-pic {
-  background-image: url('images/pismo1.jpg');
+  background-image: url('images/pismo.jpg');
 }
 
 #a7-pic {
@@ -159,11 +166,7 @@ header {
 }
 
 #a8-pic {
-  background-image: url('images/deckerCyn1.jpg');
-}
-
-#a9-pic {
-  background-image: url('images/deckerCyn1.jpg');
+  background-image: url('images/channelIslands3.jpg');
 }
 
 .grid-item:hover .hover-wrap {
@@ -336,10 +339,6 @@ header {
     margin: 24% 36% 0 0%;
   }
 
-
-  .grid-item {
-    /* min-width: 320px; */
-  }
 }
 
 @media (min-width:1400px) {
